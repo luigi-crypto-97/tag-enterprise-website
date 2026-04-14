@@ -1,0 +1,95 @@
+# ============================================
+# robots.txt per TAG Enterprise Solution Corp
+# Dominio: www.tagenterprise.com
+# ============================================
+
+# Sitemap
+Sitemap: https://www.tagenterprise.com/sitemap.xml
+
+# ============================================
+# Regole per tutti i crawler
+# ============================================
+User-agent: *
+
+# Consenti tutto il sito
+Allow: /
+
+# Directory da non indicizzare (se presenti in futuro)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*?*
+
+# ============================================
+# Google Bot - Regole specifiche
+# ============================================
+User-agent: Googlebot
+Allow: /
+# Ritardo tra le richieste (rispettoso del server)
+Crawl-delay: 1
+
+# ============================================
+# Google Bot - Immagini
+# ============================================
+User-agent: Googlebot-Image
+Allow: /
+
+# ============================================
+# Bing Bot
+# ============================================
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
+
+# ============================================
+# Slurck (Yahoo)
+# ============================================
+User-agent: Slurp
+Allow: /
+Crawl-delay: 3
+
+# ============================================
+# DuckDuckGo
+# ============================================
+User-agent: DuckDuckBot
+Allow: /
+
+# ============================================
+# Baiduspider (Baidu - Cina)
+# ============================================
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 3
+
+# ============================================
+# Yandex (Russia)
+# ============================================
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 3
+
+# ============================================
+# AI/ML Crawler - Per indicizzazione LLM
+# ============================================
+# Consenti crawler AI per training (opzionale)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ============================================
+# Note per i webmaster
+# ============================================
+# Per domande sul robots.txt:
+# Contattare: enterprise@tagcorp.com
+#
+# Per rimuovere contenuti dall'indice:
+# Usare Google Search Console o Bing Webmaster Tools
+# ============================================

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+    <!--
+        TAG Enterprise Solution Corp - Sitemap
+        Generated for: https://www.tagenterprise.com/
+        Last updated: 2026-04-14
+
+        Instructions:
+        1. Replace all instances of https://www.tagenterprise.com with your actual domain
+        2. Update <lastmod> dates as you update content
+        3. Submit to Google Search Console at: https://search.google.com/search-console
+    -->
+
+    <!-- Homepage -->
+    <url>
+        <loc>https://www.tagenterprise.com/</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <!-- Alternate language versions -->
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.tagenterprise.com/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/?lang=en"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.tagenterprise.com/"/>
+    </url>
+
+    <!-- Services Page -->
+    <url>
+        <loc>https://www.tagenterprise.com/#services</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.tagenterprise.com/#services"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/?lang=en#services"/>
+    </url>
+
+    <!-- Why Us Page -->
+    <url>
+        <loc>https://www.tagenterprise.com/#why-us</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.tagenterprise.com/#why-us"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/?lang=en#why-us"/>
+    </url>
+
+    <!-- Case Studies Page -->
+    <url>
+        <loc>https://www.tagenterprise.com/#case-studies</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.tagenterprise.com/#case-studies"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/?lang=en#case-studies"/>
+    </url>
+
+    <!-- Insights Page -->
+    <url>
+        <loc>https://www.tagenterprise.com/#insights</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.tagenterprise.com/#insights"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/?lang=en#insights"/>
+    </url>
+
+    <!-- Contact Page -->
+    <url>
+        <loc>https://www.tagenterprise.com/#contact</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.tagenterprise.com/#contact"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/?lang=en#contact"/>
+    </url>
+
+    <!-- Individual Case Study Pages (if created in future) -->
+    <!--
+    <url>
+        <loc>https://www.tagenterprise.com/case-studies/supply-chain-optimization</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.tagenterprise.com/case-studies/fraud-detection</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.tagenterprise.com/case-studies/healthcare-nlp</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    -->
+
+    <!-- Individual Insight Articles (if created in future) -->
+    <!--
+    <url>
+        <loc>https://www.tagenterprise.com/insights/calculating-ai-roi</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.tagenterprise.com/insights/llm-vs-traditional-ml</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://www.tagenterprise.com/insights/ai-finance-use-cases</loc>
+        <lastmod>2026-04-14</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    -->
+
+</urlset>

@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TAG Enterprise Solution Corp - We transform your data into intelligent decisions. Enterprise AI & Software Solutions.">
+    <meta name="keywords" content="AI, Artificial Intelligence, Machine Learning, Software Development, Miami, Enterprise Solutions, Digital Transformation">
+    <meta name="author" content="TAG Enterprise Solution Corp">
+    <title>TAG Enterprise Solution Corp | Enterprise AI & Software Solutions</title>
+
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://use.typekit.net">
+
+    <!-- Fonts: Inter for body, Calibre-style for headings -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>TAG</text></svg>">
+    <link rel="apple-touch-icon" sizes="180x180" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>TAG</text></svg>">
+
+    <!-- ============================================
+         Open Graph / Social Media Meta Tags
+         ============================================ -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.tagenterprise.com/">
+    <meta property="og:title" content="TAG Enterprise Solution Corp | Enterprise AI & Software Solutions">
+    <meta property="og:description" content="We transform your data into intelligent decisions. Custom AI solutions that reduce operational costs by up to 40%.">
+    <meta property="og:image" content="https://www.tagenterprise.com/og-image.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="TAG Enterprise Solution Corp">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:locale:alternate" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.tagenterprise.com/">
+    <meta name="twitter:title" content="TAG Enterprise Solution Corp | Enterprise AI Solutions">
+    <meta name="twitter:description" content="We transform your data into intelligent decisions. Custom AI solutions that reduce operational costs by up to 40%.">
+    <meta name="twitter:image" content="https://www.tagenterprise.com/og-image.jpg">
+
+    <!-- Additional SEO -->
+    <link rel="canonical" href="https://www.tagenterprise.com/">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#2563eb">
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-container">
+            <div class="top-bar-info">
+                <span class="top-bar-item">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    Miami, FL | Serving Clients Worldwide
+                </span>
+            </div>
+            <div class="top-bar-actions">
+                <div class="language-switcher">
+                    <button class="lang-btn active" data-lang="it">IT</button>
+                    <span class="lang-divider"></span>
+                    <button class="lang-btn" data-lang="en">EN</button>
+                </div>
+                <a href="#contact" class="top-bar-cta" data-i18n="topBar.contact">Parla con un Esperto</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <div class="logo-mark">
+                    <span class="logo-t">T</span>
+                    <span class="logo-a">A</span>
+                    <span class="logo-g">G</span>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">TAG Enterprise</span>
+                    <span class="logo-tagline" data-i18n="logo.tagline">AI & Software Solutions</span>
+                </div>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" data-i18n="nav.home">Home</a></li>
+                <li><a href="#products" data-i18n="nav.products">Prodotti</a></li>
+                <li><a href="#services" data-i18n="nav.services">Servizi</a></li>
+                <li><a href="#why-us" data-i18n="nav.whyUs">Perché Noi</a></li>
+                <li><a href="#case-studies" data-i18n="nav.cases">Casi Studio</a></li>
+                <li><a href="#contact" class="btn-nav" data-i18n="nav.contact">Contatti</a></li>
+            </ul>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-animation" id="heroAnimation"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    <span data-i18n="hero.badge">Trusted by Fortune 500 Companies</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line" data-i18n="hero.title.line1">Trasformiamo i vostri dati in</span>
+                    <span class="title-line gradient-text" data-i18n="hero.title.line2">decisioni intelligenti</span>
+                </h1>
+                <p class="hero-subtitle" data-i18n="hero.subtitle">
+                    Sviluppiamo architetture enterprise scalabili e soluzioni AI custom che riducono i costi operativi fino al 40% e aumentano l'efficienza del 3x.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">
+                        <span data-i18n="hero.cta.primary">Richiedi una Consulenza Gratuita</span>
+                        <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#case-studies" class="btn btn-secondary">
+                        <span data-i18n="hero.cta.secondary">Vedi Casi Studio</span>
+                    </a>
+                </div>
+                <div class="hero-trust">
+                    <div class="trust-item">
+                        <span class="trust-number" data-count="50">0</span><span class="trust-suffix">M+</span>
+                        <span class="trust-label" data-i18n="hero.trust.transactions">Transazioni/giorno</span>
+                    </div>
+                    <div class="trust-divider"></div>
+                    <div class="trust-item">
+                        <span class="trust-number" data-count="99">0</span><span class="trust-suffix">.9%</span>
+                        <span class="trust-label" data-i18n="hero.trust.uptime">Uptime SLA</span>
+                    </div>
+                    <div class="trust-divider"></div>
+                    <div class="trust-item">
+                        <span class="trust-number" data-count="40">0</span><span class="trust-suffix">%</span>
+                        <span class="trust-label" data-i18n="hero.trust.savings">Riduzione costi</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-card-main">
+                    <div class="card-header">
+                        <div class="card-dots">
+                            <span class="dot-red"></span>
+                            <span class="dot-yellow"></span>
+                            <span class="dot-green"></span>
+                        </div>
+                        <span class="card-title" data-i18n="hero.card.title">AI Processing Dashboard</span>
+                    </div>
+                    <div class="card-body">
+                        <div class="metric-row">
+                            <span class="metric-label" data-i18n="hero.card.accuracy">Accuracy Rate</span>
+                            <span class="metric-value">97.8%</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label" data-i18n="hero.card.processed">Processed Today</span>
+                            <span class="metric-value">2.4M</span>
+                        </div>
+                        <div class="metric-row">
+                            <span class="metric-label" data-i18n="hero.card.latency">Avg Latency</span>
+                            <span class="metric-value">23ms</span>
+                        </div>
+                        <div class="chart-placeholder">
+                            <svg viewBox="0 0 400 120" class="chart-svg">
+                                <defs>
+                                    <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                                        <stop offset="0%" style="stop-color:#2563eb;stop-opacity:0.3"/>
+                                        <stop offset="100%" style="stop-color:#2563eb;stop-opacity:0"/>
+                                    </linearGradient>
+                                </defs>
+                                <path class="chart-area" d="M0,100 Q50,80 100,85 T200,60 T300,45 T400,30 L400,120 L0,120 Z" fill="url(#chartGradient)"/>
+                                <path class="chart-line" d="M0,100 Q50,80 100,85 T200,60 T300,45 T400,30" fill="none" stroke="#2563eb" stroke-width="2"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-card card-1">
+                    <div class="float-icon icon-aws">AWS</div>
+                    <div class="float-text">
+                        <span class="float-label" data-i18n="hero.floating.cloud">Cloud Infrastructure</span>
+                        <span class="float-status status-active">● Active</span>
+                    </div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="float-icon icon-ml">ML</div>
+                    <div class="float-text">
+                        <span class="float-label" data-i18n="hero.floating.models">Models Training</span>
+                        <span class="float-status status-training">● Training</span>
+                    </div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="float-icon icon-api">API</div>
+                    <div class="float-text">
+                        <span class="float-label" data-i18n="hero.floating.requests">API Requests</span>
+                        <span class="float-value">14.2K/s</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span data-i18n="hero.scroll">Scroll to explore</span>
+            <div class="scroll-arrow">↓</div>
+        </div>
+    </section>
+
+    <!-- Logos Section -->
+    <section class="logos-section">
+        <div class="container">
+            <p class="logos-title" data-i18n="logos.title">Trusted by industry leaders worldwide</p>
+            <div class="logos-grid">
+                <div class="logo-placeholder"><span>FINTECH CORP</span></div>
+                <div class="logo-placeholder"><span>HEALTHPLUS</span></div>
+                <div class="logo-placeholder"><span>LOGISTIX</span></div>
+                <div class="logo-placeholder"><span>RETAILCO</span></div>
+                <div class="logo-placeholder"><span>DATAFLOW</span></div>
+                <div class="logo-placeholder"><span>CLOUDIFY</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem & Solution Section -->
+    <section class="problem-solution">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="problem.tag">The Challenge</span>
+                <h2 class="section-title" data-i18n="problem.title">I vostri processi sono stagnanti?</h2>
+                <p class="section-subtitle" data-i18n="problem.subtitle">L'AI è la chiave per sbloccare la crescita esponenziale del vostro business</p>
+            </div>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-number">01</div>
+                    <div class="problem-icon">📊</div>
+                    <h3 data-i18n="problem.card1.title">Analisi dati lenta</h3>
+                    <p data-i18n="problem.card1.desc">Perdete ore preziose ad analizzare manualmente report senza ottenere insight tempestivi per decisioni strategiche.</p>
+                    <div class="problem-impact">
+                        <span class="impact-label" data-i18n="problem.impact">Business Impact:</span>
+                        <span class="impact-value" data-i18n="problem.card1.impact">-15% efficienza</span>
+                    </div>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-number">02</div>
+                    <div class="problem-icon">🔄</div>
+                    <h3 data-i18n="problem.card2.title">Processi manuali</h3>
+                    <p data-i18n="problem.card2.desc">Il vostro team spreca tempo prezioso in attività ripetitive che potrebbero essere automatizzate intelligentemente.</p>
+                    <div class="problem-impact">
+                        <span class="impact-label" data-i18n="problem.impact">Business Impact:</span>
+                        <span class="impact-value" data-i18n="problem.card2.impact">20+ ore/settimana</span>
+                    </div>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-number">03</div>
+                    <div class="problem-icon">🎯</div>
+                    <h3 data-i18n="problem.card3.title">Previsioni inaccurate</h3>
+                    <p data-i18n="problem.card3.desc">Le decisioni strategiche si basano su intuizioni anziché su dati predittivi con accuratezza verificabile.</p>
+                    <div class="problem-impact">
+                        <span class="impact-label" data-i18n="problem.impact">Business Impact:</span>
+                        <span class="impact-value" data-i18n="problem.card3.impact">-30% revenue</span>
+                    </div>
+                </div>
+            </div>
+            <div class="solution-banner">
+                <div class="solution-content">
+                    <div class="solution-header">
+                        <span class="solution-badge" data-i18n="problem.solution.badge">The Solution</span>
+                        <h3 data-i18n="problem.solution.title">Intelligenza Artificiale Enterprise-Grade</h3>
+                    </div>
+                    <p data-i18n="problem.solution.desc">Trasformiamo questi problemi in opportunità misurabili. Le nostre soluzioni AI automatizzano i processi critici, accelerano l'analisi dati di 10x e forniscono previsioni con accuratezza superiore al 95%.</p>
+                    <ul class="solution-list">
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span data-i18n="problem.solution.point1">Implementazione in 4-6 settimane</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span data-i18n="problem.solution.point2">Integrazione seamless con sistemi esistenti</span>
+                        </li>
+                        <li>
+                            <span class="check-icon">✓</span>
+                            <span data-i18n="problem.solution.point3">ROI misurabile entro 90 giorni</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="solution-metrics">
+                    <div class="solution-metric">
+                        <span class="metric-big">10x</span>
+                        <span class="metric-label" data-i18n="problem.solution.metric1">Più veloci</span>
+                    </div>
+                    <div class="solution-metric">
+                        <span class="metric-big">95%+</span>
+                        <span class="metric-label" data-i18n="problem.solution.metric2">Accuratezza</span>
+                    </div>
+                    <div class="solution-metric">
+                        <span class="metric-big">40%</span>
+                        <span class="metric-label" data-i18n="problem.solution.metric3">Risparmio costi</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="services.tag">Our Expertise</span>
+                <h2 class="section-title" data-i18n="services.title">Servizi Enterprise Completi</h2>
+                <p class="section-subtitle" data-i18n="services.subtitle">Dal proof-of-concept al deployment su scala globale</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card featured">
+                    <div class="service-badge" data-i18n="services.popular">Most Popular</div>
+                    <div class="service-header">
+                        <div class="service-icon-bg">
+                            <span class="service-icon">💡</span>
+                        </div>
+                        <h3 data-i18n="services.card1.title">AI Consulting & Strategy</h3>
+                    </div>
+                    <p data-i18n="services.card1.desc">Definiamo la roadmap AI ottimale per il vostro business con analisi approfondita dei processi e pianificazione strategica dettagliata.</p>
+                    <ul class="service-list">
+                        <li><span class="bullet">→</span> <span data-i18n="services.card1.item1">AI Readiness Assessment</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card1.item2">ROI Analysis & Business Case</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card1.item3">Implementation Roadmap</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card1.item4">Team Training & Change Management</span></li>
+                    </ul>
+                    <a href="#contact" class="service-link" data-i18n="services.learnMore">Scopri di più →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon-bg">
+                            <span class="service-icon">⚙️</span>
+                        </div>
+                        <h3 data-i18n="services.card2.title">Custom Software Development</h3>
+                    </div>
+                    <p data-i18n="services.card2.desc">Architetture software enterprise che integrano AI/ML nei vostri flussi di lavoro con scalabilità e sicurezza native.</p>
+                    <ul class="service-list">
+                        <li><span class="bullet">→</span> <span data-i18n="services.card2.item1">Microservices Architecture</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card2.item2">REST & GraphQL APIs</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card2.item3">Legacy System Integration</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card2.item4">Real-time Dashboards & Analytics</span></li>
+                    </ul>
+                    <a href="#contact" class="service-link" data-i18n="services.learnMore">Scopri di più →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon-bg">
+                            <span class="service-icon">🧠</span>
+                        </div>
+                        <h3 data-i18n="services.card3.title">Machine Learning Solutions</h3>
+                    </div>
+                    <p data-i18n="services.card3.desc">Modelli ML custom addestrati sui vostri dati per automatizzare decisioni e generare insight predittivi azionabili.</p>
+                    <ul class="service-list">
+                        <li><span class="bullet">→</span> <span data-i18n="services.card3.item1">Predictive Analytics Models</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card3.item2">NLP & Computer Vision</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card3.item3">LLM Fine-tuning & RAG Systems</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card3.item4">MLOps & Model Monitoring</span></li>
+                    </ul>
+                    <a href="#contact" class="service-link" data-i18n="services.learnMore">Scopri di più →</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-header">
+                        <div class="service-icon-bg">
+                            <span class="service-icon">☁️</span>
+                        </div>
+                        <h3 data-i18n="services.card4.title">Cloud & DevOps</h3>
+                    </div>
+                    <p data-i18n="services.card4.desc">Infrastrutture cloud multi-provider con automazione DevOps per deployment continui e affidabilità enterprise.</p>
+                    <ul class="service-list">
+                        <li><span class="bullet">→</span> <span data-i18n="services.card4.item1">Multi-Cloud Strategy (AWS/Azure/GCP)</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card4.item2">CI/CD Pipeline Automation</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card4.item3">24/7 Monitoring & Alerting</span></li>
+                        <li><span class="bullet">→</span> <span data-i18n="services.card4.item4">Security & Compliance (SOC2, HIPAA)</span></li>
+                    </ul>
+                    <a href="#contact" class="service-link" data-i18n="services.learnMore">Scopri di più →</a>
+                </div>
+            </div>
+            <div class="services-cta">
+                <p data-i18n="services.cta">Non vedi quello che cerchi? Personalizziamo ogni soluzione per le tue esigenze.</p>
+                <a href="#contact" class="btn btn-outline" data-i18n="services.ctaBtn">Parla con un Solutions Architect</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="products.tag">Our Products</span>
+                <h2 class="section-title" data-i18n="products.title">I Nostri Software Gestionali</h2>
+                <p class="section-subtitle" data-i18n="products.subtitle">Soluzioni pronte all'uso per ottimizzare i processi aziendali</p>
+            </div>
+            <div class="products-grid">
+                <!-- Iron Quote -->
+                <div class="product-card featured">
+                    <div class="product-badge" data-i18n="products.popular">Più Popolare</div>
+                    <div class="product-header">
+                        <div class="product-icon-bg">
+                            <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M9 12h6m-6 4h6m2 5H7a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5.586a1 1 0 0 1 .707.293l5.414 5.414a1 1 0 0 1 .293.707V19a2 2 0 0 1-2 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="products.ironquote.title">Iron Quote</h3>
+                        <p class="product-tagline" data-i18n="products.ironquote.tagline">Gestionale per Preventivi e Ordini</p>
+                    </div>
+                    <p data-i18n="products.ironquote.desc">Piattaforma completa per la gestione di preventivi, ordini e fatturazione. Automatizza il flusso commerciale dalla richiesta del cliente all'evasione dell'ordine.</p>
+                    <ul class="product-features">
+                        <li><span class="check">✓</span> <span data-i18n="products.ironquote.f1">Preventivi personalizzabili</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="products.ironquote.f2">Tracking ordini in tempo reale</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="products.ironquote.f3">Integrazione con sistemi di fatturazione</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="products.ironquote.f4">Dashboard analytics e report</span></li>
+                    </ul>
+                    <div class="product-actions">
+                        <a href="https://app.iron-quote.it" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+                            <span data-i18n="products.tryDemo">Prova Demo</span>
+                            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-outline btn-full" data-i18n="products.requestInfo">Richiedi Info</a>
+                    </div>
+                </div>
+
+                <!-- Lex Manage -->
+                <div class="product-card">
+                    <div class="product-header">
+                        <div class="product-icon-bg">
+                            <svg class="product-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                <path d="M9 12l2 2 4-4"></path>
+                            </svg>
+                        </div>
+                        <h3 data-i18n="products.lexmanage.title">Lex Manage</h3>
+                        <p class="product-tagline" data-i18n="products.lexmanage.tagline">Gestionale per Compliance e Documenti</p>
+                    </div>
+                    <p data-i18n="products.lexmanage.desc">Sistema avanzato per la gestione della compliance aziendale, archiviazione documentale e automazione dei flussi approvativi. Ideale per studi legali e aziende regolamentate.</p>
+                    <ul class="product-features">
+                        <li><span class="check">✓</span> <span data-i18n="products.lexmanage.f1">Gestione documenti sicura</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="products.lexmanage.f2">Workflow approvativi custom</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="products.lexmanage.f3">Audit trail e versioning</span></li>
+                        <li><span class="check">✓</span> <span data-i18n="products.lexmanage.f4">Notifiche e scadenziario</span></li>
+                    </ul>
+                    <div class="product-actions">
+                        <a href="https://app.lexmanage.it" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-full">
+                            <span data-i18n="products.tryDemo">Prova Demo</span>
+                            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-outline btn-full" data-i18n="products.requestInfo">Richiedi Info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="products-cta">
+                <p data-i18n="products.cta">Hai bisogno di una soluzione personalizzata?</p>
+                <a href="#contact" class="btn btn-outline" data-i18n="products.ctaBtn">Parla con il Nostro Team</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us">
+        <div class="container">
+            <div class="why-layout">
+                <div class="why-content">
+                    <span class="section-tag light" data-i18n="why.tag">Why TAG Enterprise</span>
+                    <h2 class="section-title light" data-i18n="why.title">Il Partner Strategico per la Tua Trasformazione Digitale</h2>
+                    <p class="why-intro" data-i18n="why.intro">Non siamo un fornitore di codice. Siamo il partner strategico che trasforma la tua visione in risultati misurabili.</p>
+
+                    <div class="why-features">
+                        <div class="why-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 data-i18n="why.feature1.title">Team Interdisciplinare</h4>
+                                <p data-i18n="why.feature1.desc">Data Scientist, Software Engineer e Business Analyst collaborano per soluzioni tecnicamente eccellenti e commercialmente valide.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="1" x2="12" y2="23"></line>
+                                    <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 data-i18n="why.feature2.title">ROI Garantito</h4>
+                                <p data-i18n="why.feature2.desc">Ogni progetto include KPI definiti e reporting continuo. Ottimizziamo finché non raggiungiamo gli obiettivi.</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="feature-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <line x1="2" y1="12" x2="22" y2="12"></line>
+                                    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                                </svg>
+                            </div>
+                            <div class="feature-content">
+                                <h4 data-i18n="why.feature3.title">Presenza Globale</h4>
+                                <p data-i18n="why.feature3.desc">Sede a Miami, clienti in 4 continenti. Combiniamo flessibilità locale con expertise globale.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="why-stats">
+                    <div class="stats-grid">
+                        <div class="stat-box">
+                            <span class="stat-number gradient-text" data-count="150">0</span>
+                            <span class="stat-suffix">+</span>
+                            <span class="stat-label" data-i18n="why.stat1">Progetti Enterprise</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number gradient-text" data-count="98">0</span>
+                            <span class="stat-suffix">%</span>
+                            <span class="stat-label" data-i18n="why.stat2">Client Retention</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number gradient-text" data-count="50">0</span>
+                            <span class="stat-suffix">M+</span>
+                            <span class="stat-label" data-i18n="why.stat3">Dati processati/giorno</span>
+                        </div>
+                        <div class="stat-box">
+                            <span class="stat-number gradient-text" data-count="24">0</span>
+                            <span class="stat-suffix">/7</span>
+                            <span class="stat-label" data-i18n="why.stat4">Supporto dedicato</span>
+                        </div>
+                    </div>
+                    <div class="certifications">
+                        <h5 data-i18n="why.certs">Certificazioni</h5>
+                        <div class="cert-badges">
+                            <span class="cert-badge">AWS Partner</span>
+                            <span class="cert-badge">Microsoft Gold</span>
+                            <span class="cert-badge">Google Cloud</span>
+                            <span class="cert-badge">SOC 2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="case-studies">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="cases.tag">Case Studies</span>
+                <h2 class="section-title" data-i18n="cases.title">Risultati Misurabili per Settori Diversi</h2>
+                <p class="section-subtitle" data-i18n="cases.subtitle">Scopri come abbiamo trasformato businesses reali con soluzioni AI su misura</p>
+            </div>
+
+            <div class="case-studies-container">
+                <div class="case-card-large">
+                    <div class="case-image">
+                        <div class="image-placeholder">
+                            <span class="placeholder-icon">🏭</span>
+                            <span class="placeholder-text">Manufacturing</span>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-meta">
+                            <span class="case-sector" data-i18n="cases.case1.sector">Manufacturing & Logistics</span>
+                            <span class="case-client">Fortune 500 Company</span>
+                        </div>
+                        <h3 data-i18n="cases.case1.title">Ottimizzazione Supply Chain con AI Predittiva</h3>
+                        <div class="case-grid">
+                            <div class="case-info">
+                                <div class="info-row">
+                                    <span class="info-label" data-i18n="cases.challenge">Sfida:</span>
+                                    <span data-i18n="cases.case1.challenge">Gestione magazzino inefficiente con rotture di stock frequenti e eccesso di inventario</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label" data-i18n="cases.solution">Soluzione:</span>
+                                    <span data-i18n="cases.case1.solution">ML predittivo per demand forecasting + dashboard real-time per inventory management</span>
+                                </div>
+                            </div>
+                            <div class="case-metrics">
+                                <div class="case-metric">
+                                    <span class="case-metric-value">-25%</span>
+                                    <span class="case-metric-label" data-i18n="cases.case1.metric1">Errori inventario</span>
+                                </div>
+                                <div class="case-metric">
+                                    <span class="case-metric-value">+40h</span>
+                                    <span class="case-metric-label" data-i18n="cases.case1.metric2">Risparmiate/mese</span>
+                                </div>
+                                <div class="case-metric">
+                                    <span class="case-metric-value">-18%</span>
+                                    <span class="case-metric-label" data-i18n="cases.case1.metric3">Costi magazzino</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-card-large">
+                    <div class="case-image">
+                        <div class="image-placeholder">
+                            <span class="placeholder-icon">💰</span>
+                            <span class="placeholder-text">Financial Services</span>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-meta">
+                            <span class="case-sector" data-i18n="cases.case2.sector">Financial Services</span>
+                            <span class="case-client">Top 10 US Bank</span>
+                        </div>
+                        <h3 data-i18n="cases.case2.title">Rilevamento Frodi in Tempo Reale con Deep Learning</h3>
+                        <div class="case-grid">
+                            <div class="case-info">
+                                <div class="info-row">
+                                    <span class="info-label" data-i18n="cases.challenge">Sfida:</span>
+                                    <span data-i18n="cases.case2.challenge">Sistema legacy incapace di identificare frodi in tempo reale su 50K+ transazioni/giorno</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label" data-i18n="cases.solution">Soluzione:</span>
+                                    <span data-i18n="cases.case2.solution">Deep Learning per anomaly detection con processing in &lt;50ms per transazione</span>
+                                </div>
+                            </div>
+                            <div class="case-metrics">
+                                <div class="case-metric">
+                                    <span class="case-metric-value">+45%</span>
+                                    <span class="case-metric-label" data-i18n="cases.case2.metric1">Frodi rilevate</span>
+                                </div>
+                                <div class="case-metric">
+                                    <span class="case-metric-value">-65%</span>
+                                    <span class="case-metric-label" data-i18n="cases.case2.metric2">Falsi positivi</span>
+                                </div>
+                                <div class="case-metric">
+                                    <span class="case-metric-value">$2.4M</span>
+                                    <span class="case-metric-label" data-i18n="cases.case2.metric3">Risparmiati/anno</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-card-large">
+                    <div class="case-image">
+                        <div class="image-placeholder">
+                            <span class="placeholder-icon">🏥</span>
+                            <span class="placeholder-text">Healthcare</span>
+                        </div>
+                    </div>
+                    <div class="case-content">
+                        <div class="case-meta">
+                            <span class="case-sector" data-i18n="cases.case3.sector">Healthcare</span>
+                            <span class="case-client">Regional Hospital Network</span>
+                        </div>
+                        <h3 data-i18n="cases.case3.title">Automazione Documentazione Clinica con NLP</h3>
+                        <div class="case-grid">
+                            <div class="case-info">
+                                <div class="info-row">
+                                    <span class="info-label" data-i18n="cases.challenge">Sfida:</span>
+                                    <span data-i18n="cases.case3.challenge">3 ore/giorno di personale medico perse in documentazione cartacea e digitale</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label" data-i18n="cases.solution">Soluzione:</span>
+                                    <span data-i18n="cases.case3.solution">NLP custom per trascrizione voice-to-text e classificazione automatica referti</span>
+                                </div>
+                            </div>
+                            <div class="case-metrics">
+                                <div class="case-metric">
+                                    <span class="case-metric-value">-85%</span>
+                                    <span class="case-metric-label" data-i18n="cases.case3.metric1">Tempo docs</span>
+                                </div>
+                                <div class="case-metric">
+                                    <span class="case-metric-value">99.2%</span>
+                                    <span class="case-metric-label" data-i18n="cases.case3.metric2">Accuratezza</span>
+                                </div>
+                                <div class="case-metric">
+                                    <span class="case-metric-value">+25%</span>
+                                    <span class="case-metric-label" data-i18n="cases.case3.metric3">Pazienti/giorno</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cases-cta">
+                <p data-i18n="cases.cta">Vuoi vedere come possiamo trasformare il tuo business?</p>
+                <a href="#contact" class="btn btn-primary" data-i18n="cases.ctaBtn">Richiedi una Demo Personalizzata</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insights Section -->
+    <section id="insights" class="insights">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag" data-i18n="insights.tag">Insights</span>
+                <h2 class="section-title" data-i18n="insights.title">Thought Leadership</h2>
+                <p class="section-subtitle" data-i18n="insights.subtitle">Analisi, trend e best practice dal mondo AI & Enterprise Software</p>
+            </div>
+            <div class="insights-grid">
+                <article class="insight-card">
+                    <div class="insight-category" data-i18n="insights.cat1">AI Strategy</span>
+                    <h3 data-i18n="insights.article1.title">Come Calcolare il ROI di un Progetto AI</h3>
+                    <p data-i18n="insights.article1.desc">Una framework pratica per valutare investimenti in AI con metriche concrete e timeline realistiche.</p>
+                    <a href="#" class="insight-link" data-i18n="insights.readMore">Leggi di più →</a>
+                </article>
+                <article class="insight-card">
+                    <div class="insight-category" data-i18n="insights.cat2">Technical</span>
+                    <h3 data-i18n="insights.article2.title">LLM vs Traditional ML: Quando Usare Cosa</h3>
+                    <p data-i18n="insights.article2.desc">Guida comparativa per scegliere l'approccio giusto in base a use case, budget e requisiti.</p>
+                    <a href="#" class="insight-link" data-i18n="insights.readMore">Leggi di più →</a>
+                </article>
+                <article class="insight-card">
+                    <div class="insight-category" data-i18n="insights.cat3">Industry</span>
+                    <h3 data-i18n="insights.article3.title">AI in Finance: 5 Use Case del 2026</h3>
+                    <p data-i18n="insights.article3.desc">Dai frodi detection al customer service: come le istituzioni finanziarie stanno usando l'AI.</p>
+                    <a href="#" class="insight-link" data-i18n="insights.readMore">Leggi di più →</a>
+                </article>
+            </div>
+            <a href="#" class="btn btn-outline" data-i18n="insights.viewAll">Vedi Tutti gli Insights →</a>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <span class="cta-tag" data-i18n="cta.tag">Get Started</span>
+                <h2 data-i18n="cta.title">Pronto a Trasformare il Tuo Business con l'AI?</h2>
+                <p data-i18n="cta.desc">Non serve un'altra riunione. Serve una conversazione strategica con esperti che hanno già risolto problemi simili.</p>
+
+                <div class="cta-actions">
+                    <a href="mailto:enterprise@tagcorp.com" class="btn btn-large btn-white">
+                        <span data-i18n="cta.primary">Prenota una Chiamata Strategica</span>
+                        <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="tel:+13055550123" class="btn btn-large btn-outline-light">
+                        <span data-i18n="cta.secondary">Chiama Ora: +1 (305) 555-0123</span>
+                    </a>
+                </div>
+
+                <div class="contact-details">
+                    <div class="contact-detail">
+                        <div class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                        </div>
+                        <div class="detail-content">
+                            <span class="detail-label" data-i18n="contact.location.label">Headquarters</span>
+                            <span class="detail-value" data-i18n="contact.location.value">1450 Brickell Ave, Suite 1900, Miami, FL 33131</span>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="detail-content">
+                            <span class="detail-label" data-i18n="contact.email.label">Email</span>
+                            <span class="detail-value">enterprise@tagcorp.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-detail">
+                        <div class="detail-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                <line x1="8" y1="21" x2="16" y2="21"></line>
+                                <line x1="12" y1="17" x2="12" y2="21"></line>
+                            </svg>
+                        </div>
+                        <div class="detail-content">
+                            <span class="detail-label" data-i18n="contact.web.label">Web</span>
+                            <span class="detail-value">www.tagenterprise.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-mark">
+                            <span class="logo-t">T</span>
+                            <span class="logo-a">A</span>
+                            <span class="logo-g">G</span>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">TAG Enterprise</span>
+                        </div>
+                    </a>
+                    <p data-i18n="footer.desc">Trasformiamo i dati in decisioni intelligenti. Il vostro partner strategico per l'innovazione enterprise basata su AI.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        </a>
+                        <a href="#" aria-label="GitHub" class="social-link">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.services.title">Servizi</h4>
+                    <ul>
+                        <li><a href="#services" data-i18n="footer.services.ai">AI Consulting</a></li>
+                        <li><a href="#services" data-i18n="footer.services.dev">Software Development</a></li>
+                        <li><a href="#services" data-i18n="footer.services.ml">Machine Learning</a></li>
+                        <li><a href="#services" data-i18n="footer.services.cloud">Cloud & DevOps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.company.title">Azienda</h4>
+                    <ul>
+                        <li><a href="#why-us" data-i18n="footer.company.about">Chi Siamo</a></li>
+                        <li><a href="#case-studies" data-i18n="footer.company.cases">Casi Studio</a></li>
+                        <li><a href="#insights" data-i18n="footer.company.insights">Insights</a></li>
+                        <li><a href="#contact" data-i18n="footer.company.careers">Careers</a></li>
+                        <li><a href="#contact" data-i18n="footer.company.contact">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer.legal.title">Legale</h4>
+                    <ul>
+                        <li><a href="#" data-i18n="footer.legal.privacy">Privacy Policy</a></li>
+                        <li><a href="#" data-i18n="footer.legal.terms">Terms of Service</a></li>
+                        <li><a href="#" data-i18n="footer.legal.cookies">Cookie Policy</a></li>
+                        <li><a href="#" data-i18n="footer.legal.gdpr">GDPR Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TAG Enterprise Solution Corp. <span data-i18n="footer.rights">Tutti i diritti riservati.</span></p>
+                <p data-i18n="footer.address">1450 Brickell Ave, Suite 1900, Miami, FL 33131 | Tax ID: XX-XXXXXXX</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         Google Analytics (GA4)
+         Replace G-XXXXXXXXXX with your actual Measurement ID
+         ============================================ -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX', {
+            // Enhanced measurement settings
+            send_page_view: true,
+            // Track outbound links
+            track_outbound_clicks: true,
+            // Track site search
+            track_site_search: true
+        });
+
+        // Track language switch events
+        window.addEventListener('languageChanged', (e) => {
+            gtag('event', 'language_change', {
+                'event_category': 'engagement',
+                'event_label': e.detail.lang
+            });
+        });
+
+        // Track CTA clicks
+        document.querySelectorAll('.btn-primary, .btn-nav, .top-bar-cta').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                gtag('event', 'cta_click', {
+                    'event_category': 'conversion',
+                    'event_label': e.target.closest('a').href || e.target.href,
+                    'value': 1
+                });
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
