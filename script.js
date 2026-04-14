@@ -204,6 +204,7 @@ const i18n = {
 
             // Footer
             'footer.desc': 'Trasformiamo i dati in decisioni intelligenti. Il vostro partner strategico per l\'innovazione enterprise basata su AI.',
+            'footer.products.title': 'Prodotti',
             'footer.services.title': 'Servizi',
             'footer.services.ai': 'AI Consulting',
             'footer.services.dev': 'Software Development',
@@ -418,6 +419,7 @@ const i18n = {
 
             // Footer
             'footer.desc': 'We transform data into intelligent decisions. Your strategic partner for AI-powered enterprise innovation.',
+            'footer.products.title': 'Products',
             'footer.services.title': 'Services',
             'footer.services.ai': 'AI Consulting',
             'footer.services.dev': 'Software Development',

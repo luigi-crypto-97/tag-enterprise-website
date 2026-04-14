@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>TAG Enterprise - Open Graph Image</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #1e293b;
+        }
+
+        .og-image {
+            width: 1200px;
+            height: 630px;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 80px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Background pattern */
+        .og-image::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 20% 50%, rgba(37, 99, 235, 0.3) 0%, transparent 50%),
+                radial-gradient(circle at 80% 50%, rgba(139, 92, 246, 0.2) 0%, transparent 50%);
+        }
+
+        /* Grid pattern overlay */
+        .og-image::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image:
+                linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+            background-size: 50px 50px;
+            pointer-events: none;
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .logo-mark {
+            display: flex;
+            gap: 4px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+
+        .logo-t, .logo-a, .logo-g {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            height: 80px;
+            font-weight: 800;
+            font-size: 40px;
+            color: white;
+            border-radius: 16px;
+        }
+
+        .logo-t { background: linear-gradient(135deg, #2563eb, #1d4ed8); }
+        .logo-a { background: linear-gradient(135deg, #475569, #334155); }
+        .logo-g { background: linear-gradient(135deg, #1e293b, #0f172a); }
+
+        .company-name {
+            font-size: 56px;
+            font-weight: 800;
+            color: white;
+            margin-bottom: 20px;
+            letter-spacing: -2px;
+        }
+
+        .tagline {
+            font-size: 32px;
+            font-weight: 500;
+            color: #93c5fd;
+            margin-bottom: 50px;
+        }
+
+        .features {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+        }
+
+        .feature {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(37, 99, 235, 0.2);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+        }
+
+        .feature-text {
+            color: #cbd5e1;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .url {
+            position: absolute;
+            bottom: 50px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #64748b;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="og-image">
+        <div class="content">
+            <div class="logo-mark">
+                <span class="logo-t">T</span>
+                <span class="logo-a">A</span>
+                <span class="logo-g">G</span>
+            </div>
+            <h1 class="company-name">TAG Enterprise Solution Corp</h1>
+            <p class="tagline">Enterprise AI & Software Solutions</p>
+
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">🤖</div>
+                    <span class="feature-text">AI Solutions</span>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">⚙️</div>
+                    <span class="feature-text">Custom Software</span>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📊</div>
+                    <span class="feature-text">Data Analytics</span>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">☁️</div>
+                    <span class="feature-text">Cloud & DevOps</span>
+                </div>
+            </div>
+        </div>
+        <div class="url">www.tagenterprise.com</div>
+    </div>
+
+    <script>
+        // Per scaricare l'immagine:
+        // 1. Apri questo file nel browser
+        // 2. Usa uno screenshot tool o
+        // 3. Esegui: html2canvas e salva come JPG
+        console.log('Per creare og-image.jpg:');
+        console.log('1. Apri questo file nel browser');
+        console.log('2. Fai uno screenshot della sezione visibile');
+        console.log('3. Salva come og-image.jpg nella root del sito');
+    </script>
+</body>
+</html>
