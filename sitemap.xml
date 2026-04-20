@@ -36,24 +36,24 @@
         <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/?lang=en#products"/>
     </url>
 
-    <!-- Iron Quote Product -->
+    <!-- Iron Quote Product Landing -->
     <url>
-        <loc>https://www.tagenterprise.com/#products</loc>
-        <lastmod>2026-04-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="it" href="https://www.tagenterprise.com/#products"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/?lang=en#products"/>
+        <loc>https://www.tagenterprise.com/iron-quote.html</loc>
+        <lastmod>2026-04-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.tagenterprise.com/iron-quote.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/iron-quote.html?lang=en"/>
     </url>
 
-    <!-- Lex Manage Product -->
+    <!-- Lex Manage Product Landing -->
     <url>
-        <loc>https://www.tagenterprise.com/#products</loc>
-        <lastmod>2026-04-14</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="it" href="https://www.tagenterprise.com/#products"/>
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/?lang=en#products"/>
+        <loc>https://www.tagenterprise.com/lex-manage.html</loc>
+        <lastmod>2026-04-17</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.tagenterprise.com/lex-manage.html"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.tagenterprise.com/lex-manage.html?lang=en"/>
     </url>
 
     <!-- Services Page -->

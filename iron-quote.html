@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Quote - Gestionale per Preventivi e Ordini | TAG Enterprise</title>
+    <meta name="description" content="Piattaforma completa per la gestione di preventivi, ordini e fatturazione. Automatizza il tuo flusso commerciale con Iron Quote.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Iron Quote - Gestionale per Preventivi e Ordini">
+    <meta property="og:description" content="Automatizza il flusso commerciale dalla richiesta del cliente all'evasione dell'ordine.">
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .product-hero {
+            padding: 160px 0 100px;
+            background: linear-gradient(135deg, #1e293b 0%, #334155 100%);
+            color: white;
+        }
+
+        .product-hero-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .product-hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(37, 99, 235, 0.2);
+            border: 1px solid rgba(37, 99, 235, 0.3);
+            border-radius: 100px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+
+        .product-hero h1 {
+            font-size: clamp(36px, 5vw, 56px);
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+
+        .product-hero .subtitle {
+            font-size: 20px;
+            color: #94a3b8;
+            line-height: 1.7;
+            margin-bottom: 40px;
+        }
+
+        .product-hero-visual {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+        }
+
+        .feature-section {
+            padding: 100px 0;
+            background: #f8fafc;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-top: 60px;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 40px 32px;
+            border-radius: 20px;
+            border: 1px solid #e2e8f0;
+            transition: all 0.3s ease;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            border-color: #3b82f6;
+        }
+
+        .feature-icon {
+            width: 64px;
+            height: 64px;
+            background: linear-gradient(135deg, #3b82f6, #2563eb);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 24px;
+        }
+
+        .feature-box h3 {
+            font-size: 20px;
+            margin-bottom: 12px;
+            color: #1e293b;
+        }
+
+        .feature-box p {
+            color: #64748b;
+            font-size: 15px;
+            line-height: 1.7;
+        }
+
+        .pricing-section {
+            padding: 100px 0;
+            background: white;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-top: 60px;
+        }
+
+        .pricing-card {
+            background: #f8fafc;
+            padding: 48px 40px;
+            border-radius: 24px;
+            border: 2px solid #e2e8f0;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .pricing-card:hover {
+            transform: scale(1.02);
+            border-color: #3b82f6;
+        }
+
+        .pricing-card.featured {
+            background: linear-gradient(135deg, #1e293b, #334155);
+            color: white;
+            border-color: #3b82f6;
+        }
+
+        .pricing-card h3 {
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+
+        .pricing-amount {
+            font-size: 48px;
+            font-weight: 800;
+            margin-bottom: 8px;
+        }
+
+        .pricing-period {
+            font-size: 14px;
+            color: #94a3b8;
+            margin-bottom: 32px;
+        }
+
+        .pricing-features {
+            list-style: none;
+            text-align: left;
+            margin-bottom: 32px;
+        }
+
+        .pricing-features li {
+            padding: 12px 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .pricing-card.featured .pricing-features li {
+            border-bottom-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .check-icon {
+            color: #22c55e;
+            font-weight: 700;
+        }
+
+        @media (max-width: 1024px) {
+            .product-hero-content,
+            .feature-grid,
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-mark">
+                    <span class="logo-t">T</span>
+                    <span class="logo-a">A</span>
+                    <span class="logo-g">G</span>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-name">TAG Enterprise</span>
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#products">Prodotti</a></li>
+                <li><a href="index.html#services">Servizi</a></li>
+                <li><a href="index.html#contact">Contatti</a></li>
+                <li><a href="https://app.iron-quote.it" class="btn-nav">Accedi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Product Hero -->
+    <section class="product-hero">
+        <div class="container">
+            <div class="product-hero-content">
+                <div class="product-hero-content">
+                    <div class="product-hero-badge">
+                        <span>🚀</span>
+                        <span>Versione 3.0 disponibile</span>
+                    </div>
+                    <h1>Iron Quote</h1>
+                    <p class="subtitle">Il gestionale definitivo per preventivi, ordini e fatturazione. Automatizza il tuo flusso commerciale e riduci i tempi di elaborazione del 70%.</p>
+                    <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+                        <a href="https://app.iron-quote.it" class="btn btn-primary" style="padding: 16px 32px;">
+                            Prova Demo Gratuita
+                            <svg class="btn-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 18px; height: 18px;">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-outline-light" style="padding: 16px 32px;">Parla con Sales</a>
+                    </div>
+                </div>
+                <div class="product-hero-visual">
+                    <div style="text-align: center; padding: 40px;">
+                        <div style="font-size: 80px; margin-bottom: 20px;">📊</div>
+                        <div style="font-size: 14px; color: #94a3b8; text-transform: uppercase; letter-spacing: 2px;">Dashboard Preview</div>
+                        <div style="margin-top: 24px; display: flex; gap: 12px; justify-content: center;">
+                            <div style="background: rgba(37, 99, 235, 0.2); padding: 12px 24px; border-radius: 12px;">
+                                <div style="font-size: 24px; font-weight: 700; color: #60a5fa;">+156</div>
+                                <div style="font-size: 12px; color: #94a3b8;">Preventivi/mese</div>
+                            </div>
+                            <div style="background: rgba(34, 197, 94, 0.2); padding: 12px 24px; border-radius: 12px;">
+                                <div style="font-size: 24px; font-weight: 700; color: #4ade80;">94%</div>
+                                <div style="font-size: 12px; color: #94a3b8;">Conversion Rate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="feature-section">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <h2 style="font-size: 36px; margin-bottom: 16px; color: #1e293b;">Tutto quello che ti serve per gestire il tuo business</h2>
+                <p style="color: #64748b; font-size: 18px;">Iron Quote automatizza ogni fase del processo commerciale, dalla creazione del preventivo all'evasione dell'ordine.</p>
+            </div>
+            <div class="feature-grid">
+                <div class="feature-box">
+                    <div class="feature-icon">📝</div>
+                    <h3>Preventivi Personalizzati</h3>
+                    <p>Crea preventivi professionali con il tuo branding, listini personalizzati e condizioni commerciali flessibili.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">🔄</div>
+                    <h3>Tracking Ordini</h3>
+                    <p>Monitora lo stato di ogni ordine in tempo reale, dalla conferma alla spedizione, con notifiche automatiche.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">💳</div>
+                    <h3>Fatturazione Integrata</h3>
+                    <p>Genera fatture elettroniche in automatico, con integrazione ai principali sistemi di fatturazione.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">📈</div>
+                    <h3>Report & Analytics</h3>
+                    <p>Dashboard con KPI commerciali, andamento vendite, performance per agente e previsioni di fatturato.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">👥</div>
+                    <h3>Gestione Clienti</h3>
+                    <p>CRM integrato per gestire anagrafiche, storico ordini, comunicazioni e opportunità commerciali.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">🔗</div>
+                    <h3>API & Integrazioni</h3>
+                    <p>Connetti Iron Quote al tuo e-commerce, ERP o altri sistemi tramite API REST documentate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing-section" id="pricing">
+        <div class="container">
+            <div style="text-align: center; max-width: 700px; margin: 0 auto;">
+                <h2 style="font-size: 36px; margin-bottom: 16px; color: #1e293b;">Piani semplici e trasparenti</h2>
+                <p style="color: #64748b; font-size: 18px;">Scegli il piano più adatto alle tue esigenze. Nessun costo nascosto, cancella quando vuoi.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="pricing-amount">€49</div>
+                    <div class="pricing-period">al mese + IVA</div>
+                    <ul class="pricing-features">
+                        <li><span class="check-icon">✓</span> Fino a 50 preventivi/mese</li>
+                        <li><span class="check-icon">✓</span> 1 utente</li>
+                        <li><span class="check-icon">✓</span> Preventivi personalizzati</li>
+                        <li><span class="check-icon">✓</span> Tracking ordini base</li>
+                        <li><span class="check-icon">✓</span> Supporto email</li>
+                    </ul>
+                    <a href="https://app.iron-quote.it" class="btn btn-outline" style="width: 100%;">Inizia ora</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div style="background: rgba(37, 99, 235, 0.2); padding: 4px 12px; border-radius: 100px; display: inline-block; font-size: 12px; font-weight: 600; margin-bottom: 16px; color: #60a5fa;">PIÙ POPOLARE</div>
+                    <h3>Professional</h3>
+                    <div class="pricing-amount">€99</div>
+                    <div class="pricing-period">al mese + IVA</div>
+                    <ul class="pricing-features">
+                        <li><span class="check-icon">✓</span> Preventivi illimitati</li>
+                        <li><span class="check-icon">✓</span> Fino a 5 utenti</li>
+                        <li><span class="check-icon">✓</span> Fatturazione integrata</li>
+                        <li><span class="check-icon">✓</span> Dashboard analytics</li>
+                        <li><span class="check-icon">✓</span> CRM clienti</li>
+                        <li><span class="check-icon">✓</span> API access</li>
+                        <li><span class="check-icon">✓</span> Supporto prioritario</li>
+                    </ul>
+                    <a href="https://app.iron-quote.it" class="btn btn-primary" style="width: 100%;">Inizia ora</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="pricing-amount">€249</div>
+                    <div class="pricing-period">al mese + IVA</div>
+                    <ul class="pricing-features">
+                        <li><span class="check-icon">✓</span> Tutto illimitato</li>
+                        <li><span class="check-icon">✓</span> Utenti illimitati</li>
+                        <li><span class="check-icon">✓</span> Integrazioni custom</li>
+                        <li><span class="check-icon">✓</span> White label</li>
+                        <li><span class="check-icon">✓</span> SLA garantito</li>
+                        <li><span class="check-icon">✓</span> Account manager dedicato</li>
+                        <li><span class="check-icon">✓</span> Supporto 24/7</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-outline" style="width: 100%;">Contatta sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section style="padding: 100px 0; background: linear-gradient(135deg, #1e293b, #334155); text-align: center;">
+        <div class="container">
+            <h2 style="font-size: 36px; color: white; margin-bottom: 16px;">Pronto a ottimizzare il tuo flusso commerciale?</h2>
+            <p style="color: #94a3b8; font-size: 18px; margin-bottom: 40px; max-width: 600px; margin-left: auto; margin-right: auto;">Inizia la tua prova gratuita di 14 giorni. Nessuna carta di credito richiesta.</p>
+            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                <a href="https://app.iron-quote.it" class="btn btn-primary" style="padding: 18px 48px;">Prova Gratis</a>
+                <a href="#contact" class="btn btn-outline-light" style="padding: 18px 48px;">Parla con Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: #0f172a; color: #94a3b8; padding: 60px 0 30px;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; margin-bottom: 40px;">
+                <div>
+                    <a href="index.html" class="logo" style="margin-bottom: 16px; display: inline-flex; align-items: center; gap: 12px;">
+                        <div class="logo-mark">
+                            <span class="logo-t">T</span>
+                            <span class="logo-a">A</span>
+                            <span class="logo-g">G</span>
+                        </div>
+                        <span class="logo-name" style="color: white;">TAG Enterprise</span>
+                    </a>
+                    <p style="font-size: 14px; line-height: 1.8;">Iron Quote è un prodotto di TAG Enterprise Solution Corp.</p>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 16px;">Prodotto</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 12px;"><a href="#pricing" style="color: #94a3b8;">Prezzi</a></li>
+                        <li style="margin-bottom: 12px;"><a href="https://app.iron-quote.it" style="color: #94a3b8;">Accedi</a></li>
+                        <li style="margin-bottom: 12px;"><a href="#contact" style="color: #94a3b8;">Demo</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: white; margin-bottom: 16px;">Supporto</h4>
+                    <ul style="list-style: none; padding: 0;">
+                        <li style="margin-bottom: 12px;"><a href="#contact" style="color: #94a3b8;">Contatti</a></li>
+                        <li style="margin-bottom: 12px;"><a href="#" style="color: #94a3b8;">Documentazione</a></li>
+                        <li style="margin-bottom: 12px;"><a href="#" style="color: #94a3b8;">API</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #1e293b; padding-top: 30px; text-align: center; font-size: 14px;">
+                <p>&copy; 2026 TAG Enterprise Solution Corp. Tutti i diritti riservati.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
